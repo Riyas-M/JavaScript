@@ -22,4 +22,4 @@ let objB = { f_Name: "Sharif", l_Name: "Ismail" };
 
 console.log(objA.printDetails.apply(objB, ['Male', "Mumbai"])); // Sharif Ismail male Mumbai
 
-/* Similar to myCall, This method myApply accepts an array of arguments which are spread when calling the function. */
+/* Similar to call, This method apply accepts an array of arguments which are spread when calling the function. */
