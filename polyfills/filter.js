@@ -14,7 +14,7 @@ let inputArr = [1, 2, 4, 8, 16];
 
 let context = { filterCondition: 5 };
 
-let updatedArray = inputArr.myFilter(function(val) {
+let updatedArray = inputArr.filter(function(val) {
   return val > this.filterCondition;
 }, context);
 
